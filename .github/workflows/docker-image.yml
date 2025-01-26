@@ -1,4 +1,10 @@
 name: Docker Image CI
+# secrets.GITHUB_TOKEN permissions
+permissions:
+  contents: write
+  pull-requests: write 
+  issues: read
+  packages: write
 
 on:
   push:
